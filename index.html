@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ny images™ #7</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<div class="overlay"></div>
+	<div class="overlay-content">
+		<img class="overlay-img" src="">
+	</div>
+
+	<main>
+
+		<section>
+
+			<figure>
+
+				<span>1</span>
+
+				<img src="images/original_b06c2b896554b7b786322da72e533bd9.jpg">
+
+			</figure>
+
+			<figure>
+
+				<span>2</span>
+
+				<img src="images/4ye.png">
+
+				<a href="https://instagram.com/4ye">source</a>
+
+			</figure>
+
+			<figure>
+
+				<span>3</span>
+
+				<img src="images/4918__boavista-primary-0.png">
+				
+			</figure>
+
+			<figure>
+
+				<span>4</span>
+
+				<img src="images/tumblr_p3ne6dracJ1qjqcwdo1_500.jpg">
+
+			</figure>
+
+			<figure>
+
+				<span>5</span>
+
+				<img src="images/pendant.png">
+
+				<a href="https://instagram.com/notreyork">source</a>
+
+			</figure>
+
+			<figure>
+
+				<span>6</span>
+
+				<img src="images/IMG_2098.jpg">
+
+				<a href="https://instagram.com/steezwear_garms">source</a>
+
+			</figure>
+
+			<figure>
+
+				<span>7</span>
+
+				<img src="images/IMG_1895.png">
+
+				<a href="https://instagram.com/sickowenz">source</a>
+
+			</figure>
+
+			<figure>
+
+				<span>8</span>
+
+				<img src="images/nytm.png">
+
+				<a href="https://instagram.com/notreyork">source</a>
+
+			</figure>
+
+			<figure>
+
+				<span>9</span>
+
+				<img src="images/IMG_1833.png">
+
+				<a href="https://www.nocta.com/products/sbl-noca-elite-basketball-ca">source</a>
+
+			</figure>
+
+			<figure>
+
+				<span>10</span>
+
+				<img src="images/IMG_1754.JPG">
+
+			</figure>
+
+			<figure>
+
+				<span>11</span>
+
+				<img src="images/IMG_1802.PNG">
+
+				<a href="https://instagram.com/r2rvc">source</a>
+
+			</figure>
+
+			<figure>
+
+				<span>12</span>
+
+				<img src="images/IMG_1753.JPG">
+
+			</figure>
+
+
+		</section>
+
+	</main>
+
+	<footer>
+
+		<div class="copyright">
+			<strong>ny images™ #7</strong>
+			<br>
+			visit <a href="https://notreyork.com">www.notreyork.com</a> to subscribe
+			<br>
+			<br>
+			<a href="https://ny-images.com" target="_blank">view archive</a>
+		</div>
+
+	</footer>
+
+	<script   src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+
+	$("figure img").click(function(){		                                        
+		$(".overlay-img").attr("src",$(this).prop('src'));
+	    $(".overlay").show();
+	    $(".overlay-content").show();
+	});
+
+	$(".overlay, .overlay-content").click(function(){
+	    $(".overlay-img").attr("src", "");
+	    $(".overlay").hide();
+	    $(".overlay-content").hide();
+	});
+		
+	</script>
+
+</body>
+</html>
